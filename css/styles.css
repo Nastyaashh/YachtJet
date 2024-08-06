@@ -1,0 +1,363 @@
+:root {
+  --background-color: #0e1823;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-color);
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 32px;
+}
+
+.header-container {
+  width: 1240px;
+  height: 48px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+}
+
+.header-text {
+  width: 74px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+.header-text:focus,
+.header-text:hover {
+  transform: scale(1.15);
+  transition: transform 250ms ease-in-out;
+}
+
+.header-button-nav {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background-color: rgba(27, 65, 75, 0.5);
+}
+
+.header-button-nav:focus,
+.header-button-nav:hover {
+  background-color: #1b414b;
+  transition: background-color 250ms ease-in-out;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.header-icon {
+  display: flex;
+  gap: 8px;
+  padding-top: 12px;
+  padding-right: 30px;
+}
+
+.header-soc {
+  fill: #1b414b;
+}
+
+.header-soc:focus,
+.header-soc:hover {
+  transform: scale(1.25);
+  transition: transform 250ms ease-in-out;
+}
+
+/* HERO */
+
+.hero-container {
+  padding-top: 155px;
+  padding-bottom: 180px;
+  background-image: linear-gradient(
+      360deg,
+      rgba(17, 19, 31, 0.8) 15.05%,
+      rgba(17, 19, 31, 0.8) 75.3%,
+      rgba(17, 19, 31, 0.8) 98.27%
+    ),
+    url("../images/yacht.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero-title {
+  max-width: 1000px;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto;
+}
+
+.hero-text {
+  max-width: 596px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+
+.hero-button {
+  display: block;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
+  background-color: #1b414b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin: 0 auto;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  box-shadow: 5px 6px 25px 4px rgba(27, 65, 75, 1);
+  transition: box-shadow 250ms ease-in-out;
+}
+
+/* ABOUT */
+
+.about-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  max-width: 536px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.about-container {
+  display: flex;
+  gap: 300px;
+  border-radius: 24px;
+  width: 1340px;
+  height: 675px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  position: relative;
+  min-width: 1340px;
+}
+
+.about-wrapper {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.about-photo {
+  position: absolute;
+  top: 155%;
+  width: 1342px;
+  left: 50%;
+  translate: -50%;
+}
+
+/* TYPES */
+
+.types {
+  padding-top: 300px;
+}
+
+.types-title {
+  max-width: 714px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.types-list {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.types-item {
+  border-radius: 24px;
+  width: 392px;
+  height: 508px;
+  background-color: #fbfbfb;
+}
+
+.types-photo {
+  padding: 16px 16px 0 16px;
+  margin-bottom: 32px;
+}
+
+.types-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+  padding-left: 32px;
+  min-width: 177px;
+}
+
+.types-description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 118%;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+  padding-right: 32px;
+  margin-bottom: 16px;
+}
+
+.types-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(4, 3, 6, 0.1);
+  margin-bottom: 16px;
+}
+
+.types-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  padding-left: 32px;
+  opacity: 0.4;
+  margin-bottom: 6px;
+}
+
+.types-charact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  color: #040306;
+  margin-bottom: 6px;
+}
+
+.types-name-wrapper {
+  display: flex;
+  gap: 175px;
+}
+
+.types-button {
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin: 0 auto;
+}
+
+.types-button:focus,
+.types-button:hover {
+  background-color: #fbfbfb;
+  color: #1b414b;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}

@@ -3,7 +3,202 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>YachtJet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <header class="header container">
+      <div class="header-container">
+        <nav class="header-navigation">
+          <p class="header-text">yachtjet</p>
+          <ul class="header-list">
+            <li class="header-item">
+              <button class="header-button-nav">About</button>
+            </li>
+            <li class="header-item">
+              <button class="header-button-nav">Yachts</button>
+            </li>
+            <li class="header-item">
+              <button class="header-button-nav">Reviews</button>
+            </li>
+          </ul>
+          <ul class="header-icon">
+            <li>
+              <svg class="header-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-inst"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="header-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-youtube"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="header-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Explore the High Seas with Our Luxury Yacht Rentals
+          </h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas.
+            Choose from our top-of-the-line yachts and embark on an
+            unforgettable journey surrounded by breathtaking views and
+            state-of-the-art amenities.
+          </p>
+          <button class="hero-button" type="submit">Yacht rental</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about-container">
+          <h2 class="about-title">
+            YachtJet fleet is here to take you on the ultimate adventure
+          </h2>
+          <div class="about-wrapper">
+            <h3 class="about-description">
+              From spacious decks to state-of-the-art technology, our yachts are
+              designed to provide the perfect blend of luxury and functionality.
+            </h3>
+            <p class="about-text">
+              Take a look at our selection below and choose the yacht that
+              matches your needs and preferences.No matter which yacht you
+              choose, our experienced crew will ensure that your journey is
+              smooth and enjoyable. Book now and get ready for an unforgettable
+              adventure on the high seas.
+            </p>
+          </div>
+        </div>
+        <img
+          src="./images/yachtjet.png"
+          alt="yacht"
+          width="1340"
+          height="470"
+          class="about-photo"
+        />
+      </section>
+      <section class="types">
+        <h2 class="types-title">
+          Choose your dream yacht and sail away into the sunset
+        </h2>
+        <ul class="types-list">
+          <li class="types-item">
+            <img
+              src="./images/type-1.png"
+              alt="type-1"
+              width="360"
+              height="268"
+              class="types-photo"
+            />
+            <div class="types-text-wrapper">
+              <p class="types-text">Arrow</p>
+              <p class="types-description">LUXURY YAHTS</p>
+            </div>
+            <div class="types-name-wrapper">
+              <ul>
+                <li class="types-name">LENGTH</li>
+                <li class="types-name">BUILDER</li>
+                <li class="types-name">BUILT</li>
+                <li class="types-name">GUESTS</li>
+                <li class="types-name">PRICE</li>
+              </ul>
+              <ul>
+                <li class="types-charact">48m(155ft)</li>
+                <li class="types-charact">Admiral</li>
+                <li class="types-charact">2021</li>
+                <li class="types-charact">11 in 5 cabins</li>
+                <li class="types-charact">€33,500,000</li>
+              </ul>
+            </div>
+          </li>
+          <li class="types-item">
+            <img
+              src="./images/type-2.png"
+              alt="type-1"
+              width="360"
+              height="268"
+              class="types-photo"
+            />
+            <div class="types-text-wrapper">
+              <p class="types-text">BENETTI OASIS 40M BO122</p>
+              <p class="types-description">LUXURY YAHTS</p>
+            </div>
+            <div class="types-name-wrapper">
+              <ul>
+                <li class="types-name">LENGTH</li>
+                <li class="types-name">SHIPYARD</li>
+                <li class="types-name">BUILT</li>
+                <li class="types-name">GUESTS</li>
+                <li class="types-name">PRICE</li>
+              </ul>
+              <ul>
+                <li class="types-charact">41m (133ft)</li>
+                <li class="types-charact">Benetti</li>
+                <li class="types-charact">2025</li>
+                <li class="types-charact">10 in 5 cabins</li>
+                <li class="types-charact">€23,210,000</li>
+              </ul>
+            </div>
+          </li>
+          <li class="types-item">
+            <img
+              src="./images/type-3.png"
+              alt="type-1"
+              width="360"
+              height="268"
+              class="types-photo"
+            />
+            <div class="types-text-wrapper">
+              <p class="types-text">BELLE ANNA</p>
+              <p class="types-description">LUXURY YAHTS</p>
+            </div>
+            <div class="types-name-wrapper">
+              <ul>
+                <li class="types-name">LENGTH</li>
+                <li class="types-name">SHIPYARD</li>
+                <li class="types-name">BUILT</li>
+                <li class="types-name">GUESTS</li>
+                <li class="types-name">PRICE</li>
+              </ul>
+              <ul>
+                <li class="types-charact">50m(155ft)</li>
+                <li class="types-charact">ISA</li>
+                <li class="types-charact">2012</li>
+                <li class="types-charact">12 in 6 cabins</li>
+                <li class="types-charact">€21,000,000</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <button class="types-button" type="submit">Yacht rental</button>
+      </section>
+      <section class="benefits"></section>
+      <section class="order"></section>
+      <section class="response"></section>
+    </main>
+
+    <footer class="footer"></footer>
+  </body>
 </html>
