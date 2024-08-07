@@ -27,13 +27,13 @@
           <p class="header-text">yachtjet</p>
           <ul class="header-list">
             <li class="header-item">
-              <button class="header-button-nav">About</button>
+              <button href="#about" class="header-button-nav"><a class="header-button-link" href="#about">About</a></button>
             </li>
             <li class="header-item">
-              <button class="header-button-nav">Yachts</button>
+              <button class="header-button-nav"><a class="header-button-link" href="#yachts">Yachts</a></button>
             </li>
             <li class="header-item">
-              <button class="header-button-nav">Reviews</button>
+              <button class="header-button-nav"><a class="header-button-link" href="#reviews">Reviews</a></button>
             </li>
           </ul>
           <ul class="header-icon">
@@ -72,9 +72,9 @@
           <button class="hero-button" type="submit">Yacht rental</button>
         </div>
       </section>
-      <section class="about">
+      <section class="about container">
         <div class="about-container">
-          <h2 class="about-title">
+          <h2 id="about" class="about-title">
             YachtJet fleet is here to take you on the ultimate adventure
           </h2>
           <div class="about-wrapper">
@@ -99,8 +99,8 @@
           class="about-photo"
         />
       </section>
-      <section class="types">
-        <h2 class="types-title">
+      <section class="types container">
+        <h2 id="yachts" class="types-title">
           Choose your dream yacht and sail away into the sunset
         </h2>
         <ul class="types-list">
@@ -194,11 +194,143 @@
         </ul>
         <button class="types-button" type="submit">Yacht rental</button>
       </section>
-      <section class="benefits"></section>
-      <section class="order"></section>
-      <section class="response"></section>
+      <section class="benefits container">
+        <div class="benefits-container">
+          <div class="benefits-wrapper">
+            <ul class="benefits-list">
+              <li class="benefits-item">
+                <h2 class="benefits-title">01</h2>
+                <p class="benefits-text">
+                  Swimming and water sports: try your hand at water skiing
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h2 class="benefits-title">02</h2>
+                <p class="benefits-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h2 class="benefits-title">03</h2>
+                <p class="benefits-text">
+                  Sightseeing tours: take a shore or island tour, enjoy the
+                  views and sunsets from the water
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h2 class="benefits-title">04</h2>
+                <p class="benefits-text">
+                  Rest and relaxation: read a book or listen to music while
+                  enjoying the outdoor atmosphere.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-photo-wrapper" width="540" height="424">
+            <img src="./images/benefits.png" alt="benefits of yacht" />
+          </div>
+        </div>
+      </section>
+      <section class="order container">
+        <div class="order-container">
+          <img
+            src="./images/order.png"
+            alt="order-photo"
+            width="768"
+            height="536"
+            class="order-photo"
+          />
+          <div class="form-container">
+              <h2 class="order-title">Rent a yacht now</h2>
+              <form>
+                <ul>
+                  <li>
+                    <input
+                      type="text"
+                      class="order-input"
+                      name="order-input"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <input
+                      type="email"
+                      class="order-input"
+                      name="order-email-input"
+                      placeholder="Email"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <input
+                      type="email"
+                      class="order-input"
+                      name="order-phone-input"
+                      placeholder="Phone number"
+                      required
+                    />
+                  </li>
+                  <li>
+                  <textarea name="order-comment" id="order-comment" class="order-input textarea" placeholder="Comment"></textarea>
+                  </li>
+                </ul>
+              </form>
+              <button type="submit" class="form-button">Send</button>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="response container">
+        <h2 id="reviews" class="response-title">YachtJet take pride in providing the best possible service and experience to our customers</h2>
+        <p class="response-text">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out what they have to say about their journey with us.</p>
+        <ul class="response-list">
+          <li class="response-item">
+            <div class="response-list-wrapper">
+              <img src="./images/John Wax.png" alt="John Wax" class="response-photo" width="56">
+              <h3 class="response-photo-title">John Wax</h3>
+              <p class="response-photo-text">I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything. </p>
+            </div>
+          </li>
+          <li class="response-item"><div class="response-list-wrapper">
+            <img src="./images/Victoria Romashenko.png" alt="Victoria Romashenko" class="response-photo" width="56">
+            <h3 class="response-photo-title">Victoria Romashenko</h3>
+            <p class="response-photo-text">The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly. </p>
+          </div></li>
+          <li class="response-item"><div class="response-list-wrapper">
+            <img src="./images/Ihor Trachuk.png" alt="Ihor Trachuk" class="response-photo" width="56">
+            <h3 class="response-photo-title">Ihor Trachuk</h3>
+            <p class="response-photo-text">The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!</p>
+          </div></li>
+        </ul>
+      </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer container">
+      <div class="footer-nav">
+        <a href="./index.html" class="footer-nav-text">yachtjet</a>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><button class="footer-nav-button"><a href="#about" class="header-button-link footer-link">About</a></button></li>
+          <li class="footer-nav-item"><button class="footer-nav-button"><a href="#yachts" class="header-button-link footer-link">Yachts</a></button></li>
+          <li class="footer-nav-item"><button class="footer-nav-button"><a href="#reviews" class="header-button-link footer-link">Reviews</a></button></li>
+        </ul>
+        <ul class="footer-soc">
+          <li><svg class="footer-soc-photo" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-inst"></use>
+          </svg></li>
+          <li><svg class="footer-soc-photo" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-youtube"></use>
+          </svg></li>
+          <li><svg class="footer-soc-photo" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+          </svg></li>
+        </ul>
+      </div>
+      <p class="footer-title">No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable.</p>
+      <ul class="footer-list">
+        <li><a href="./index.html" class="footer-text">2023. Yacht Adventures</a></li>
+        <li><a href="./index.html" class="footer-text">Privacy Police</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
