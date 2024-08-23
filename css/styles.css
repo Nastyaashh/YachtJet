@@ -256,6 +256,10 @@ h6 {
   translate: -50%; */
 }
 
+.about-photo-tablet {
+  display: none;
+}
+
 /* TYPES */
 
 .types {
@@ -462,6 +466,10 @@ h6 {
   height: 424px;
 }
 
+.benefits-photo-tablet {
+  display: none;
+}
+
 .benefits-photo-desktop {
   display: none;
 }
@@ -498,6 +506,10 @@ h6 {
   /* max-width: 768px; */
 }
 
+.order-photo-tablet {
+  display: none;
+}
+
 .order-input {
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -519,6 +531,10 @@ h6 {
   /* width: 472px;
   height: 116px;
   margin-bottom: 50px; */
+}
+
+.form-container {
+  padding-left: 0;
 }
 
 .form-button {
@@ -563,8 +579,6 @@ h6 {
   margin: 0 auto;
   margin-bottom: 25px;
   /* max-width: 854px; */
-  /* margin-bottom: 25px;
-    font-size: 48px; */
 }
 
 .response-text {
@@ -577,9 +591,7 @@ h6 {
   opacity: 0.4;
   margin: 0 auto;
   margin-bottom: 40px;
-  /* margin-bottom: 75px;
-  font-size: 14px;
-  line-height: 129%;
+  /*
   max-width: 571px; */
 }
 
@@ -701,8 +713,6 @@ h6 {
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
-  /* width: 91px;
-  height: 40px; */
 }
 
 .footer-nav-button:focus,
@@ -747,9 +757,7 @@ h6 {
   color: #fbfbfb;
   max-width: 279px;
   margin-bottom: 82px;
-  /* max-width: 698px;
-  font-size: 32px;
-  margin-bottom: 99px; */
+  /* max-width: 698px;*/
 }
 
 .footer-text {
@@ -759,14 +767,11 @@ h6 {
   letter-spacing: 0.03em;
   text-align: center;
   color: rgba(251, 251, 251, 0.4);
-  /* font-size: 14px;
-  line-height: 118%; */
 }
 
 .footer-list {
   display: flex;
   gap: 20px;
-  /* gap: 32px; */
   justify-content: center;
   align-items: center;
 }
@@ -924,6 +929,7 @@ h6 {
   }
 
   .about-photo-tablet {
+    display: block;
     max-width: 704px;
     height: 470px;
     position: absolute;
@@ -985,5 +991,184 @@ h6 {
     height: 52px;
     font-size: 18px;
     line-height: 110%;
+  }
+
+  /* BENEFITS */
+
+  .benefits {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+
+  .benefits-wrapper {
+    width: 704px;
+    height: 424px;
+    padding-top: 90px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 90px;
+    margin-bottom: 32px;
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .benefits-title {
+    width: 304px;
+    font-size: 32px;
+  }
+
+  .benefits-text {
+    font-size: 13px;
+    line-height: 115%;
+    max-width: 292px;
+  }
+
+  .benefits-photo-mobile {
+    display: none;
+  }
+
+  .benefits-photo-tablet {
+    display: block;
+  }
+
+  /* ORDER */
+
+  .order {
+    padding-bottom: 150px;
+  }
+
+  .order-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .order-container {
+    margin: 0 auto;
+  }
+
+  .form-container {
+    padding-left: 116px;
+  }
+
+  .order-photo {
+    display: none;
+  }
+
+  .order-photo-tablet {
+    display: block;
+  }
+
+  .order-input {
+    padding: 18px 18px 18px;
+    width: 472px;
+    height: 54px;
+  }
+
+  .textarea {
+    width: 472px;
+    height: 116px;
+    margin-bottom: 50px;
+  }
+
+  .form-button {
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 110%;
+    margin-bottom: 50px;
+  }
+
+  /* RESPONSE  */
+
+  .response {
+    margin-bottom: 15px;
+  }
+
+  .response-title {
+    font-size: 48px;
+  }
+
+  .response-text {
+    font-size: 14px;
+    line-height: 129%;
+    margin-bottom: 75px;
+  }
+
+  .tablet {
+    display: block;
+    width: 335px;
+    height: 282px;
+    padding-top: 32px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .response-list {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .response-photo-text {
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: 296px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    width: 736px;
+    height: 418px;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav-mobile {
+    display: flex;
+    width: 462px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer-nav-text {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    gap: 4px;
+    padding-top: 50px;
+    margin-bottom: 96px;
+  }
+
+  .footer-nav-button {
+    width: 91px;
+    height: 40px;
+  }
+
+  .footer-title {
+    font-size: 32px;
+    min-width: 640px;
+    margin-bottom: 99px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 118%;
+  }
+
+  .footer-list {
+    gap: 32px;
   }
 }
