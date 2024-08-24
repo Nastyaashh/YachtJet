@@ -518,6 +518,7 @@ h6 {
   width: 335px;
   height: 42px;
   margin-bottom: 18px;
+  color: #fbfbfb;
   /* padding: 18px 18px 18px;
   width: 472px;
   height: 54px; */
@@ -701,12 +702,19 @@ h6 {
   margin-bottom: 80px;
 }
 
-.footer-nav-button {
+.footer-nav-item {
   width: 66px;
   height: 40px;
   border: none;
   border-radius: 8px;
   background-color: rgba(251, 251, 251, 0.3);
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
   font-weight: 400;
   font-size: 9px;
   line-height: 130%;
@@ -715,8 +723,8 @@ h6 {
   color: #fbfbfb;
 }
 
-.footer-nav-button:focus,
-.footer-nav-button:hover {
+.footer-nav-item:focus,
+.footer-nav-item:hover {
   background-color: #fbfbfb;
   color: #1b414b;
   transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
@@ -833,13 +841,13 @@ h6 {
     padding-left: 28px;
   }
 
-  .header-button-nav {
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 130%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fbfbfb;
+  .header-item:focus,
+  .header-item:hover {
+    background-color: #1b414b;
+    transition: background-color 250ms ease-in-out;
+  }
+
+  .header-item {
     border: none;
     border-radius: 8px;
     width: 91px;
@@ -847,14 +855,17 @@ h6 {
     background-color: rgba(27, 65, 75, 0.5);
   }
 
-  .header-button-nav:focus,
-  .header-button-nav:hover {
-    background-color: #1b414b;
-    transition: background-color 250ms ease-in-out;
-  }
-
   .header-button-link {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-align: center;
     color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
   }
 
   .header-navigation {
@@ -991,6 +1002,12 @@ h6 {
     height: 52px;
     font-size: 18px;
     line-height: 110%;
+  }
+
+  .types-item-tablet:focus,
+  .types-item-tablet:hover {
+    transform: scale(1.05);
+    transition: scale 250ms ease-in-out;
   }
 
   /* BENEFITS */
@@ -1152,9 +1169,12 @@ h6 {
     margin-bottom: 96px;
   }
 
-  .footer-nav-button {
+  .footer-nav-item {
+    border: none;
+    border-radius: 8px;
     width: 91px;
     height: 40px;
+    background-color: rgba(251, 251, 251, 0.3);
   }
 
   .footer-title {
