@@ -244,7 +244,7 @@ h6 {
   position: absolute;
   left: 50%;
   translate: -50%;
-  top: 180%;
+  top: 136%;
   /* 
   top: 155%;
   width: 1342px;
@@ -253,6 +253,10 @@ h6 {
 }
 
 .about-photo-tablet {
+  display: none;
+}
+
+.about-photo-desktop-small {
   display: none;
 }
 
@@ -940,7 +944,7 @@ h6 {
     max-width: 704px;
     height: 470px;
     position: absolute;
-    top: 215%;
+    top: 168%;
   }
 
   /* TYPES */
@@ -1289,6 +1293,7 @@ h6 {
   }
 
   .hero-title {
+    width: 1001px;
     font-weight: 500;
     font-size: 80px;
     line-height: 100%;
@@ -1306,6 +1311,116 @@ h6 {
     width: 179px;
     height: 52px;
     font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+  }
+
+  /* ABOUT */
+
+  .about-container {
+    min-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 155px;
+    display: flex;
+    gap: 189px;
+    position: relative;
+  }
+
+  .about-title {
+    font-size: 48px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    min-width: 537px;
+    padding-top: 50px;
+  }
+
+  .about-description {
+    font-size: 23px;
+    padding-top: 50px;
+  }
+
+  .about-text {
+    font-size: 13px;
+    line-height: 115%;
+  }
+
+  .about-photo-mobile {
+    display: none;
+  }
+
+  .about-photo-desktop-small {
+    display: block;
+    position: absolute;
+    top: 132%;
+  }
+
+  /* TYPES */
+
+  .types {
+    padding-top: 140px;
+  }
+
+  .types-title {
+    font-size: 48px;
+    margin-bottom: 75px;
+    min-width: 714px;
+  }
+
+  .types-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .types-item-desktop {
+    display: block;
+  }
+
+  .types-item-tablet {
+    display: block;
+  }
+
+  .types-item {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    width: 377px;
+    height: 508px;
+  }
+
+  .types-item-tablet {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    width: 377px;
+    height: 508px;
+  }
+
+  .types-item-desktop {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    width: 377px;
+    height: 508px;
+  }
+
+  .types-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+  }
+
+  .types-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+  }
+
+  .types-button {
+    width: 179px;
+    height: 52px;
     font-size: 18px;
     line-height: 110%;
   }
